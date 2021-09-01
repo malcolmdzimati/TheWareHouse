@@ -1,0 +1,58 @@
+#calcnt{
+  margin-top: 0.5%;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(18, 21, 31, 80%);
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#headcal {
+  background-color: blueviolet;
+  opacity: 0.8;
+  width: 100%;
+  height: 19%;
+}
+
+#con{
+  background-color: rgb(231, 231, 231, 80%);
+  width: 99%;
+  height: 79%;
+  margin-left: 0.5%;
+  margin-top: 0.5%;
+}
+
+table, th, td {
+  border: medium double blueviolet;
+}
+th, td {
+  padding: auto;
+  text-align: center;
+}
+
+table{
+  width: 100%;
+  height: 100%;
+}
+
+#today{
+  background-color: blueviolet;
+  color: rgb(231, 231, 231);
+}
+
+#heading{
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+
+#next, #previous{
+  float: right;
+  width: 20%;
+  height: 60%;
+  margin-left: 2&;
+}
+
+#next:hover, #previous:hover{
+  background-color: blueviolet;
+  color: rgb(231, 231, 231);
+}
